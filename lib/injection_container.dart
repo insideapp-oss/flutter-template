@@ -1,6 +1,6 @@
 import 'package:flutter_template_insideapp/features/market/data/data_sources/remote/coincap_api_service.dart';
 import 'package:flutter_template_insideapp/features/market/data/repository/asset_repository.dart';
-import 'package:flutter_template_insideapp/features/market/domain/repository/article_repository_impl.dart';
+import 'package:flutter_template_insideapp/features/market/domain/repository/asset_repository_impl.dart';
 import 'package:flutter_template_insideapp/features/market/domain/usecases/get_asset.dart';
 import 'package:flutter_template_insideapp/features/market/presentation/bloc/asset_bloc.dart';
 import 'package:get_it/get_it.dart';
