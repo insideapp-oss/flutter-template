@@ -1,0 +1,47 @@
+name: flutter_template_insideapp
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+
+  #state management
+  flutter_bloc: ^8.1.2
+
+  #comparing dart objects
+  equatable: ^2.0.5
+
+  #service locator
+  get_it: ^7.6.0
+  
+  #dateFormat
+  intl: ^0.18.1
+
+  #Database
+  floor: any
+
+  #make request to api
+  retrofit: ^4.0.3
+
+  #Hooks
+  flutter_hooks: ^0.20.3
+  dio: ^5.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  retrofit_generator: ^8.0.3
+  floor_generator: ^1.4.2
+  build_runner: ^2.4.6
+
+flutter:
+  uses-material-design: true
